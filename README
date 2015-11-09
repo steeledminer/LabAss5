@@ -1,0 +1,93 @@
+=================================================
+===================READ ME=======================
+=================================================
+*************************************************
+Contents:
+-------------------------------------------------
+1. How to build
+2. How to use
+3. How to remove
+4. Credit
+*************************************************
+How To Build
+-------------------------------------------------
+Open up terminal and change directory to the location
+of 'dictionary.cpp' (make sure all included files
+are also located there). Enter the command 'make main' to
+compile and build the executable. Proceed to run
+the executable, or type './main < file.dat' in
+terminal, where 'file.dat' is the file you wish to
+read.
+*************************************************
+How to use
+-------------------------------------------------
+This program checks the identified file (refer to
+How to Build) for words, and their frequency using a
+linked list data structure. It will only check for words, 
+excluding symbols and spaces. After it has searched the 
+file and made it's data, it will sort and output it's 
+results in Terminal. For examples of how the output 
+works, run the program and direct it to "examplefile" 
+or "examplefile2". The following shows the file, 
+and it's respective output:
+--------------------------------------------------
+examplefile
+--------------------------------------------------
+ 
+Word:               Frequency: 
+-------------------------------
+a       1
+file       2
+is       1
+test       2
+this       1
+
+
+--------------------------------------------------
+examplefile2
+--------------------------------------------------
+
+Word:               Frequency: 
+-------------------------------
+a       2
+all       1
+and       1
+as       2
+being       1
+busy       4
+characters       1
+file       2
+getting       1
+hopefully       1
+humanly       1
+in       1
+is       1
+many       1
+outputting       1
+possible       1
+proper       1
+sentence,       1
+single       1
+stuff.       1
+supercalifragilisticexpialadocious       1
+test       2
+the       1
+this       1
+
+
+--------------------------------------------------
+Open the files to see the exact text they hold.
+
+
+
+**************************************************
+How to remove
+--------------------------------------------------
+In terminal go to the directory that 'main'
+is located. Type 'make clean' to remove all but
+source files.
+**************************************************
+Credits
+--------------------------------------------------
+Programmed by Andrew Hingst (5043535).
+**************************************************
